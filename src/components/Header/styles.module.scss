@@ -1,0 +1,15 @@
+.headerContainer {
+    background: var(--white);
+    border-radius: 4px;
+    padding: 1rem;
+    margin: 1rem auto;
+    max-width: 1120px;
+}
+
+.headerContent {
+    h1 {
+        color: var(--gray-900);
+        font-size: 20px;
+        line-height: 30px
+    }
+}

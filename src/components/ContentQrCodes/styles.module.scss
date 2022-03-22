@@ -1,0 +1,46 @@
+
+.titlesGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 13px;
+    background: var(--white);
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+.contentGrid {
+    button {
+        background: none;
+        border: none;
+        width: 100%;
+        text-align: left;
+
+        transition: filter 0.2s;
+
+        &:hover {
+            filter: brightness(0.9)
+        }
+    }
+
+    .boxGrid {
+        background: var(--white);
+        border-radius: 4px;
+        padding: 1rem;
+        margin: 0.2rem auto;
+    
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 13px;
+    }
+
+    .loading {
+        display: block;
+        font-size: 30px;
+        text-align: center;
+        color: var(--gray-300);
+        margin-top: 100px;
+    }
+}
+
+
+
